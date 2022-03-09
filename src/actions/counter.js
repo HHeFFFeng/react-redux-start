@@ -1,11 +1,13 @@
+import * as constants from "../constants"
+
 export function increment(){
     return {
-        type:"INCREMENT"
+        type: constants.INCREMENT
     }
 }
 
 export function decrement(){
     return{
-        type: "DECREMENT"
+        type: constants.DECREMENT
     }
 }
