@@ -22,7 +22,7 @@ class App extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    value: state
+    value: state.counter
   }
 }
 
